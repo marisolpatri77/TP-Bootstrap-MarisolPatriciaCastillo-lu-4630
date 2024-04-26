@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Horoscopo</title>
+</head>
+<body>
+    
+    <div class="container-fluid">
+
+        <div class="row">
+            <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+                <div class="container-fluid  col-12 col-md-12 col-lg-12">
+                  <a class="navbar-brand" href="#">Bootstrap</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link" href="./page-a.html"><i class="bi bi-music-note-list"></i> Música</a>
+                      <a class="nav-link" href="./page-b.html"><i class="bi bi-currency-exchange"></i> Cotización de divisas</a>
+                      <a class="nav-link" href="./page-c.html"><i class="bi bi-star"></i> Horoscopo</a>
+                      <a class="nav-link" href="./pag1.html" target="_blank"><i class="bi bi-display"></i> Diseño Responsivo</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </div>
+
+       
+        <div class="row">
+          <div class="text-center p-2 border mt-3 mb-3 text-light bg-black">
+            <h3>Los Signos del Zodiaco</h3>
+          </div>
+          
+          <div class="row row-cols-2 row-cols-md-3">
+
+            <a href="#aries" class="link-offset-2 link-underline  link-underline-opacity-0">
+              <div class="col text-center">
+                <div class="d-inline-block" style="max-width: 160px;">
+                  <div class="card p-2 mb-3">
+                    <img src="./public/img/logo-aries.png" alt="" width="150px" class="mx-auto rounded img-fluid">
+                    <div>
+                      <h5 class="card-title p-1">Aries</h5>
+                    </div>
+                  </div> 
+                </div>
+                   
+              </div>
+            </a>
+
+            <a href="#tauro" class="link-offset-2 link-underline  link-underline-opacity-0">
+              <div class="col text-center">
+                <div class="d-inline-block" style="max-width: 160px;">
+                  <div class="card p-2 mb-3">
+                    <img src="./public/img/logo-tauro.png" alt="" width="150px" class="mx-auto rounded img-fluid">
+                    <div>
+                      <h5 class="card-title p-1">Tauro</h5>
+                    </div>
+                  </div> 
+                </div>  
+              </div>
+            </a>
+
+            <a href="#geminis" class="link-offset-2 link-underline  link-underline-opacity-0">
+              <div class="col text-center">
+                <div class="d-inline-block" style="max-width: 160px;">
+                  <div class="card p-2 mb-3">
+                    <img src="./public/img/logo-geminis.png" alt="" width="150px" class="mx-auto rounded img-fluid">
+                    <div>
+                      <h5 class="card-title p-1">Géminis</h5>
+                    </div>
+                  </div> 
+                </div>  
+              </div>
+            </a>
+
+            <a href="#cancer" class="link-offset-2 link-underline  link-underline-opacity-0">
+              <div class="col text-center">
+                <div class="d-inline-block" style="max-width: 160px;">
+                  <div class="card p-2 mb-3">
+                    <img src="./public/img/logo-cancer.png" alt="" width="150px" class="mx-auto rounded img-fluid">
+                    <div>
+                      <h5 class="card-title p-1">Cáncer</h5>
+                    </div>
+                  </div> 
+                </div>  
+              </div>
+            </a>
+
+            <a href="#leo" class="link-offset-2 link-underline  link-underline-opacity-0">
+              <div class="col text-center">
+                <div class="d-inline-block" style="max-width: 160px;">
+                  <div class="card p-2 mb-3">
+                    <img src="./public/img/logo-leo.png" alt="" width="150px" class="mx-auto rounded img-fluid">
+                    <div>
+                      <h5 class="card-title p-1">Leo</h5>
+                    </div>
+                  </div>  
+                </div>
+              </div>
+            </a>
+
+            <a href="#virgo" class="link-offset-2 link-underline  link-underline-opacity-0">
+              <div class="col text-center">
+                <div class="d-inline-block" style="max-width: 160px;">
+                  <div class="card p-2 mb-3">
+                    <img src="./public/img/logo-virgo.png" alt="" width="150px" class="mx-auto rounded img-fluid">
+                    <div>
+                      <h5 class="card-title p-1">Virgo</h5>
+                    </div>
+                  </div> 
+                </div>   
+              </div>
+            </a>
+
+            <a href="#libra" class="link-offset-2 link-underline  link-underline-opacity-0">
+              <div class="col  text-center">
+                <div class="d-inline-block" style="max-width: 160px;">
+                  <div class="card p-2 mb-3">
+                    <img src="./public/img/logo-libra.png" alt="" width="150px" class="mx-auto rounded img-fluid">
+                    <div>
+                      <h5 class="card-title p-1">Libra</h5>
+                    </div>
+                  </div> 
+                </div>   
+              </div>
+            </a>
+
+            <a href="#escorpio" class="link-offset-2 link-underline  link-underline-opacity-0">
+              <div class="col  text-center">
+                <div class="d-inline-block" style="max-width: 160px;">
+                  <div class="card p-2 mb-3">
+                    <img src="./public/img/logo-escorpio.png" alt="" width="150px" class="mx-auto rounded img-fluid">
+                    <div>
+                      <h5 class="card-title p-1">Escorpio</h5>
+                    </div>
+                  </div> 
+                </div>
+              </div>
+            </a>
+
+            <a href="#sagitario" class="link-offset-2 link-underline  link-underline-opacity-0">
+              <div class="col  text-center">
+                <div class="d-inline-block" style="max-width: 160px;">
+                  <div class="card p-2 mb-3">
+                    <img src="./public/img/logo-sagitario.png" alt="" width="150px" class="mx-auto rounded img-fluid">
+                    <div>
+                      <h5 class="card-title p-1">Sagitario</h5>
+                    </div>
+                  </div>  
+                </div>
+              </div>
+            </a>
+
+            <a href="#capricornio" class="link-offset-2 link-underline  link-underline-opacity-0">
+              <div class="col  text-center">
+                <div class="d-inline-block" style="max-width: 160px;">
+                  <div class="card p-2 mb-3">
+                    <img src="./public/img/logo-capricornio.png" alt="" width="150px" class="mx-auto rounded img-fluid">
+                    <div>
+                      <h5 class="card-title p-1">Capricornio</h5>
+                    </div>
+                  </div>  
+                </div> 
+              </div>
+            </a>
+
+            <a href="#acuario" class="link-offset-2 link-underline  link-underline-opacity-0">
+              <div class="col  text-center">
+                <div class="d-inline-block" style="max-width: 160px;">
+                  <div class="card p-2 mb-3">
+                    <img src="./public/img/logo-acuario.png" alt="" width="150px" class="mx-auto rounded img-fluid">
+                    <div>
+                      <h5 class="card-title p-1">Acuario</h5>
+                    </div>
+                  </div> 
+                </div>  
+              </div>
+            </a>
+
+            <a href="#piscis" class="link-offset-2 link-underline  link-underline-opacity-0">
+              <div class="col text-center">
+                <div class="d-inline-block" style="max-width: 160px;">
+                  <div class="card p-2 mb-3">
+                    <img src="./public/img/logo-piscis.png" alt="" width="150px" class="mx-auto rounded img-fluid">
+                    <div>
+                      <h5 class="card-title p-1">Piscis</h5>
+                    </div>
+                  </div> 
+                </div> 
+              </div>
+            </a>
+          </div>
+        </div>
+        
+
+        <div class="row row-cols-1  m-2">
+          <div class="card mt-4 d-inline-block mx-auto mb-5" style="max-width: 800px;" id="aries" >
+            <div class="card-header bg-dark text-light fw-bold fs-4 text-center">
+              Aries (21 de marzo — 19 de abril)
+            </div>
+            <div class="card-body">
+              <p class="card-text text-justify">Los <strong>Aries</strong> son personas llenas de energía y entusiasmo por la vida. Aventureros por naturaleza, les encantan los retos, la libertad y las nuevas ideas, por lo que nunca tienen miedo a los comienzos o nuevas etapas. Son líderes y prefieren dar órdenes a recibirlas. La energía que emana de ellos les lleva a ser algo agresivos, tercos e inquietos. Si te cruzas con alguno de ellos ten cuidado de no ofenderlos, ya que pueden sentirse así de forma muy fácil. Es complicado hacer las paces con ellos. Aries es el primer signo del Zodiaco, de ahí que sean líderes y les guste empezar nuevos retos. <strong>Siempre lucharán si creen que la causa merece la pena.</strong></p>
+            </div>
+          </div>
+
+          <div class="card mt-4 d-inline-block mx-auto mb-5" style="max-width: 800px;" id="tauro" >
+            <div class="card-header bg-dark text-light fw-bold fs-4 text-center">
+              Tauro (20 de abril — 21 de mayo)
+            </div>
+            <div class="card-body">
+              <p class="card-text text-justify">Un <strong>Tauro</strong> es una persona que tiene una gran fuerza de voluntad, es práctico y decidido en la toma de decisiones. <strong>Suelen ser personas estables y conservadoras</strong> y no dudan en seguir a un líder si les despierta confianza. Son gente de paz, por lo que lo normal es que respeten las leyes y normas. El hecho de que tengan entusiasmo por la rutina y la continuidad hace que sean algo tozudos y de ideas fijas. No suelen hundirse en las dificultades y siempre salen adelante. Amantes de la buena comida, bebida y distintos placeres de la vida deben tener cuidado con los excesos.</p>
+            </div>
+          </div>
+
+          <div class="card mt-4 d-inline-block mx-auto mb-5" style="max-width: 800px;" id="geminis">
+            <div class="card-header bg-dark text-light fw-bold fs-4 text-center">
+              Géminis (21 de mayo — 20 de junio)
+            </div>
+            <div class="card-body">
+              <p class="card-text text-justify">Carácter doble, complejo y contradictorio es lo que mejor define a un <strong>Géminis</strong>. Al contrario que los Aries, los Géminis empiezan con entusiasmo nuevas aventuras, pero tienden a aburrirse rápido por la falta de constancia. Son personas <strong>cariñosas, amables y generosas </strong>, aunque tienen algo de mentirosos si quieren obtener algo. Eso sí, sin perder el encanto. Suelen ser personas que se desaniman con facilidad ante las dificultades, por lo que necesitan escuchar halagos y recibir atención. Inteligencia y capacidad para aprender la tienen, aunque suelen aburrirse en el proceso de aprendizaje.</p>
+            </div>
+          </div>
+
+          <div class="card mt-4 d-inline-block mx-auto mb-5" style="max-width: 800px;" id="cancer" >
+            <div class="card-header bg-dark text-light fw-bold fs-4 text-center">
+              Cáncer (21 de junio — 22 de julio)
+            </div>
+            <div class="card-body">
+              <p class="card-text text-justify">Los <strong>Cáncer</strong> son personas complicadas de clasificar, si se atiende a su carácter. Los hay <strong>tímidos y aburridos</strong> , pero también <strong>brillantes y famosos </strong>. De hecho, algunos presentan una alta capacidad literaria y artística, gracias a su capacidad imaginativa. Les encanta ser extrovertidos, pero también tienen tendencia a retraerse. El hogar es lo más importante para ellos, por la seguridad y el calor que encuentran en él.</p>
+            </div>
+          </div>
+
+          <div class="card mt-4 d-inline-block mx-auto mb-5" style="max-width: 800px;" id="leo" >
+            <div class="card-header bg-dark text-light fw-bold fs-4 text-center">
+              Leo (23 de julio — 22 de agosto)
+            </div>
+            <div class="card-body">
+              <p class="card-text text-justify">Es el <strong>signo más dominante del Zodiaco</strong>. Es creativo y extrovertido. Tienen ambición, fuerza, valentía y seguridad en sus capacidades. No temen a los obstáculos y suelen ser buenos, idealistas e inteligentes. Para los Leo , el lujo y el poder están entre sus gustos. Asimismo, son capaces de utilizar trucos y mentiras para desacreditar a sus enemigos. A veces, también pueden caer en la superioridad y la prepotencia.</p>
+            </div>
+          </div>
+
+          <div class="card mt-4 d-inline-block mx-auto mb-5" style="max-width: 800px;" id="virgo" >
+            <div class="card-header bg-dark text-light fw-bold fs-4 text-center">
+              Virgo (23 de agosto — 22 de septiembre)
+            </div>
+            <div class="card-body">
+              <p class="card-text text-justify"><strong>Único signo zodiacal representado por una mujer</strong>. Los <strong>Virgo</strong> son <strong>observadores, pacientes y les cuesta hacer amigos por su carácter frío</strong> que muestran a veces. A pesar de ello tienen encanto y suelen ayudar a los demás cuando se presenta un problema. El método, el estudio y la lógica predominan en ellos, por eso les gusta aprender siempre, así como tener un análisis de la situación. Tanto se paran a pensar que a veces pueden retrasar la conclusión de los proyectos más complicados que llevan a cabo. Son intuitivos y capaces de ver todos los lados de un argumento.</p>
+            </div>
+          </div>
+
+          <div class="card mt-4 d-inline-block mx-auto mb-5" style="max-width: 800px;" id="libra">
+            <div class="card-header bg-dark text-light fw-bold fs-4 text-center">
+              Libra (23 de septiembre — 22 de octubre)
+            </div>
+            <div class="card-body">
+              <p class="card-text text-justify">El <strong>signo del Zodiaco más civilizado </strong>. Tienen encanto, elegancia, buen gusto y son amables y pacíficos, por lo que no es raro que ante conflictos sean imparciales y muestren su rechazo a ellos. Valoran el esfuerzo de los demás y les gusta trabajar en equipo. El lado negativo de Libra es que de lo curiosos que son a veces <strong>se entrometen en la vida de los demás </strong>. Están en contra de la rutina, y una vez que tengan una opinión de algo no les gusta que se les contradiga.</p>
+            </div>
+          </div>
+
+          <div class="card mt-4 d-inline-block mx-auto mb-5" style="max-width: 800px;" id="escorpio">
+            <div class="card-header bg-dark text-light fw-bold fs-4 text-center">
+              Escorpio (23 de octubre — 21 de noviembre)
+            </div>
+            <div class="card-body">
+              <p class="card-text text-justify">Un <strong>Escorpio</strong> es una persona tranquila que parece alejada de la realidad, aunque nunca dejan de observar todo a su alrededor con el ojo crítico. <strong>Tienen mucha fuerza de voluntad y muestran tenacidad </strong>, pero también les afecta al estado de ánimo las circunstancias que les rodean. Suelen ser críticos y esto les lleva, a veces, a ser algo resentidos con los demás. Sin embargo son excelentes amigos de aquellos a los que consideran que merecen su respeto.</p>
+            </div>
+          </div>
+
+          <div class="card mt-4 d-inline-block mx-auto mb-5" style="max-width: 800px;" id="sagitario">
+            <div class="card-header bg-dark text-light fw-bold fs-4 text-center">
+              Sagitario (22 de noviembre — 21 de diciembre)
+            </div>
+            <div class="card-body">
+              <p class="card-text text-justify"><strong>Sagitario es el signo más positivo de todo el Zodiaco</strong>. Cuando las cosas se ponen complicadas un Sagitario siempre sacará la mejor versión y se olvidará de la negatividad. Entre sus mejores características están las de ser buenos organizadores y abarcar nuevos proyectos y aprender cosas nuevas. El lado negativo es el genio que pueden mostrar a veces, sobre todo cuando detectan que alguien no va a su ritmo. Muchas veces también <strong>son exigentes con los demás </strong>, porque cuando un objetivo se les pone enfrente no dudan en sacrificarse.</p>
+            </div>
+          </div>
+
+          <div class="card mt-4 d-inline-block mx-auto mb-5" style="max-width: 800px;" id="capricornio">
+            <div class="card-header bg-dark text-light fw-bold fs-4 text-center">
+              Capricornio (22 de diciembre — 19 de enero)
+            </div>
+            <div class="card-body">
+              <p class="card-text text-justify"><strong>Estabilidad, seguridad y tranquilidad</strong> es lo que mejor define a un <strong>Capricornio</strong> . Son personas justas y exigentes con los demás, porque también lo son con ellos mismos. Suelen perder el control de sus emociones, por lo que es fácil que sean pesimistas y melancólicos, pero siempre tratan de buscar ayuda. Por eso es recomendable que mantengan la estabilidad emocional a través de la meditación, respiración o actividades que les ayuden a relajarse.</p>
+            </div>
+          </div>
+
+          <div class="card mt-4 d-inline-block mx-auto mb-5" style="max-width: 800px;" id="acuario" >
+            <div class="card-header bg-dark text-light fw-bold fs-4 text-center">
+              Acuario (20 de enero — 18 de febrero)
+            </div>
+            <div class="card-body">
+              <p class="card-text text-justify">Los <strong>Acuario</strong> tienen una personalidad fuerte y atractiva, <strong>pero hay dos tipos</strong>: los que son tímidos, sensibles y pacientes; y los que son exuberantes, vivos y frívolos. Eso sí, ambos son honestos y no dudarán en cambiar su opinión si estaban equivocados. Es el signo más tolerante de los doce, pero tampoco les gusta pertenecer a la multitud. Muchas veces sienten la necesidad de retirarse para meditar. No hacen amigos con facilidad, a pesar de la personalidad abierta que tienen.</p>
+            </div>
+          </div>
+
+          <div class="card mt-4 d-inline-block mx-auto mb-5" style="max-width: 800px;" id="piscis" >
+            <div class="card-header bg-dark text-light fw-bold fs-4 text-center">
+              Piscis (19 de febrero — 20 de marzo)
+            </div>
+            <div class="card-body">
+              <p class="card-text text-justify"> <strong> Son tranquilos, amables y pacientes. Los Piscis</strong>  son sensibles a los sentimientos de los demás y responden con simpatía al tacto y al sufrimiento. Son queridos por el resto de los signos, debido al carácter afable, cariñoso y amable. Les preocupan más los problemas de los demás que los suyos propios. Eso sí, les cuesta mucho luchar por el poder establecido. Son creativos y artísticos.</p>
+            </div>
+          </div>
+
+          
+        </div>
+
+
+        <div class="row">
+          <div>
+            <footer>
+              <div class=" mt-5 pt-1 text-center fw-bold">
+                <p>© 2024 Programación y Servicios Web. Todos los derechos reservados.</p>
+              </div>
+            </footer>
+          </div>
+        </div>
+    </div>
+    
+
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
